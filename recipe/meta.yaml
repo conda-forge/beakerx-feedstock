@@ -24,6 +24,7 @@ requirements:
     - python
     - setuptools
     - jupyter
+    - pandas
   run:
     - python
     - jupyter
