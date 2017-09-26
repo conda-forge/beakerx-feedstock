@@ -31,7 +31,7 @@ requirements:
     - jupyter
     - openjdk
     - pandas
-    - ipywidgets
+    - ipywidgets>=7.0.0
     - widgetsnbextension
 
 test:
