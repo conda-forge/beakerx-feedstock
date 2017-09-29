@@ -1,6 +1,6 @@
 {% set name = "beakerx" %}
-{% set version = "0.5.0" %}
-{% set sha256 = "f1b92a77b89b1ff20ebf814658d2f4ce67f998ae560c5806d10dc4f8b43eb264" %}
+{% set version = "0.5.1" %}
+{% set sha256 = "c647559b03c57c6800fd931821d57a9ea8362657c708a3fa52efba1063d79ca6" %}
 
 package:
   name: {{ name|lower }}
@@ -16,7 +16,7 @@ source:
   sha256: {{ sha256 }}
   
 build:
-  number: 1
+  number: 0
   skip: true # [py2k]
   script: python setup.py install --single-version-externally-managed --record record.txt
 
