@@ -1,6 +1,6 @@
 {% set name = "beakerx" %}
-{% set version = "0.5.1" %}
-{% set sha256 = "c647559b03c57c6800fd931821d57a9ea8362657c708a3fa52efba1063d79ca6" %}
+{% set version = "0.6.0" %}
+{% set sha256 = "6f643ac835da01ea3bc1d0bede7f523f273e8eed42141ad65d9ca75c05316e53" %}
 
 package:
   name: {{ name|lower }}
@@ -17,7 +17,8 @@ source:
   
 build:
   number: 0
-  skip: true # [py2k]
+  skip: true  # [py2k]
+  skip: true  # [win32]
   script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
@@ -35,6 +36,8 @@ requirements:
     - widgetsnbextension
 
 test:
+  imports:
+    - beakerx
 
 about:
   home: http://github.com/twosigma/beakerx
@@ -51,4 +54,3 @@ about:
 extra:
   recipe-maintainers:
     - scottdraves
-    - gnestor
