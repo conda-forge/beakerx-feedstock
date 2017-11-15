@@ -1,6 +1,6 @@
 {% set name = "beakerx" %}
-{% set version = "0.7.0" %}
-{% set sha256 = "ca5301a8409bcacbd79b87d72114de74a54d1727e0d9ea3853b39b281eb42e11" %}
+{% set version = "0.8.0" %}
+{% set sha256 = "f639b47f68f48340087d252daf54a2893e26a915126a2f23a714324489a136a9" %}
 
 package:
   name: {{ name|lower }}
@@ -31,6 +31,7 @@ requirements:
     - python
     - jupyter
     - openjdk
+    - maven
     - pandas
     - ipywidgets
     - widgetsnbextension
