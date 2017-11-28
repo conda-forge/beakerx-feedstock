@@ -1,6 +1,6 @@
 {% set name = "beakerx" %}
-{% set version = "0.8.1" %}
-{% set sha256 = "5ff78f59051f879dd1aba65764397e8fdd7a1a53b55511003f94cecabb76eb5e" %}
+{% set version = "0.9.0" %}
+{% set sha256 = "1b7463bb7d0b2ae1e6276ab3f86883b0b5befd0a11dab9ba4bc64285b15edd26" %}
 
 package:
   name: {{ name|lower }}
@@ -41,15 +41,15 @@ test:
     - beakerx
 
 about:
-  home: http://github.com/twosigma/beakerx
+  home: http://beakerx.com
   license: Apache-2.0
   license_family: Apache
   license_file: LICENSE
-  summary: 'Beaker Extensions for Jupyter'
+  summary: 'Beaker Extensions for Jupyter and Jupyter Lab'
 
   description: |
-    Beaker Extensions for Jupyter
-  doc_url: https://github.com/twosigma/beakerx
+    Beaker Extensions for Jupyter and Jupyter Lab
+  doc_url: http://beakerx.com
   dev_url: https://github.com/twosigma/beakerx
 
 extra:
