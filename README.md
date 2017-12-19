@@ -1,15 +1,15 @@
 About beakerx
 =============
 
-Home: http://beakerx.com
+Home: http://github.com/twosigma/beakerx
 
 Package license: Apache-2.0
 
 Feedstock license: BSD 3-Clause
 
-Summary: Beaker Extensions for Jupyter and Jupyter Lab
+Summary: Beaker Extensions for Jupyter
 
-Beaker Extensions for Jupyter and Jupyter Lab
+Beaker Extensions for Jupyter
 
 
 Current build status
@@ -67,7 +67,6 @@ To manage the continuous integration and simplify feedstock maintenance
 Using the ``conda-forge.yml`` within this repository, it is possible to re-render all of
 this feedstock's supporting files (e.g. the CI configuration files) with ``conda smithy rerender``.
 
-For more information please check the [conda-forge documentation](https://conda-forge.org/docs/).
 
 Terminology
 ===========
@@ -103,3 +102,4 @@ In order to produce a uniquely identifiable distribution:
  * If the version of a package **is** being increased, please remember to return
    the [``build/number``](http://conda.pydata.org/docs/building/meta-yaml.html#build-number-and-string)
    back to 0.
+
