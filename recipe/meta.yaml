@@ -19,7 +19,7 @@ build:
   number: 0
   skip: true  # [py2k]
   skip: true  # [win32]
-  script: pip install . --no-deps
+  script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
   build:
