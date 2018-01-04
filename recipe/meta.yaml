@@ -36,6 +36,7 @@ requirements:
     - pandas
     - ipywidgets
     - widgetsnbextension
+    - pytest
 
 test:
   imports:
