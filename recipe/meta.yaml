@@ -1,6 +1,6 @@
 {% set name = "beakerx" %}
-{% set version = "0.12.2" %}
-{% set sha256 = "fa321683d1ee7a68a287e8b316116ad15a4df67844c298ea2d0e9262b4633747" %}
+{% set version = "0.13.0" %}
+{% set sha256 = "e06499d352c12696a108d79e887ebc8f9f119a1e00a09f1f7481d3b89a98e156" %}
 
 package:
   name: {{ name|lower }}
@@ -16,7 +16,7 @@ source:
   sha256: {{ sha256 }}
   
 build:
-  number: 2
+  number: 1
   skip: true  # [py2k]
   skip: true  # [win32]
   script: pip install --no-deps .
