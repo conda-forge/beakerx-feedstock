@@ -1,6 +1,6 @@
 {% set name = "beakerx" %}
-{% set version = "0.15.1" %}
-{% set sha256 = "f0bb07be19d363386531c3dcfa67d1fd2efd7596f7109f511508c55f6aa99f2a" %}
+{% set version = "0.15.2" %}
+{% set sha256 = "b4c22eac051c591e8de6d940401e27ed3d8bbc3446681a483d8104382cc735b2" %}
 
 package:
   name: {{ name|lower }}
