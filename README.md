@@ -15,14 +15,16 @@ Beaker Extensions for Jupyter and Jupyter Lab
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/beakerx-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/beakerx-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/beakerx-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/beakerx-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/beakerx-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/beakerx-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/beakerx-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/beakerx-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/beakerx-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/beakerx-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/beakerx-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/beakerx-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/beakerx/badges/version.svg)](https://anaconda.org/conda-forge/beakerx)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/beakerx/badges/downloads.svg)](https://anaconda.org/conda-forge/beakerx)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-beakerx-green.svg)](https://anaconda.org/conda-forge/beakerx) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/beakerx.svg)](https://anaconda.org/conda-forge/beakerx) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/beakerx.svg)](https://anaconda.org/conda-forge/beakerx) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/beakerx.svg)](https://anaconda.org/conda-forge/beakerx) |
 
 Installing beakerx
 ==================
