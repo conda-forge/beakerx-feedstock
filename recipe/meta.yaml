@@ -1,6 +1,6 @@
 {% set name = "beakerx" %}
-{% set version = "0.20.1" %}
-{% set sha256 = "5d71ba77e10bc5d38eea60c488a667cbcb9ed7e3b7f14acf940ddc6b157f3e1a" %}
+{% set version = "0.21.0" %}
+{% set sha256 = "5ccdd821ffec5acd4f5faa94f929c430e85f7cadabfca5153a7405ec40cd05bb" %}
 
 package:
   name: {{ name|lower }}
@@ -38,6 +38,7 @@ requirements:
     - ipywidgets >=7.0
     - widgetsnbextension
     - pytest
+    - requests
 
 test:
   imports:
