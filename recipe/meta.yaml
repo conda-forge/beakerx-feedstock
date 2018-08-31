@@ -16,7 +16,7 @@ source:
   sha256: {{ sha256 }}
   
 build:
-  number: 0
+  number: 1
   skip: true  # [py2k]
   skip: true  # [win32]
   script: pip install --no-deps .
