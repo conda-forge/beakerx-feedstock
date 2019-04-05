@@ -1,6 +1,6 @@
 {% set name = "beakerx" %}
-{% set version = "1.3.0" %}
-{% set sha256 = "babb1d838a734aeceed7e03b81bbb3cf86a191c9dda9013048f7ca4274f87a6f" %}
+{% set version = "1.4.1" %}
+{% set sha256 = "f4fcee4bd640a175783bfcf70fdd9f599b528808183bdf1993913e32bd759be7" %}
 
 package:
   name: {{ name|lower }}
@@ -16,7 +16,7 @@ source:
   sha256: {{ sha256 }}
   
 build:
-  number: 1000
+  number: 1
   skip: true  # [py2k]
   skip: true  # [win32]
   script: pip install --no-deps .
@@ -29,8 +29,8 @@ requirements:
     - pip
   run:
     - python
-    - notebook >=4.4.0
-    - openjdk
+    - notebook >=5.7.4
+    - openjdk ==8.0.121
     - maven
     - py4j
     - numpy
@@ -60,5 +60,4 @@ about:
 
 extra:
   recipe-maintainers:
-    - scottdraves
     - LeeTZ
