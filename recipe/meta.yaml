@@ -24,7 +24,7 @@ build:
     - beakerx = beakerx:run
 
 requirements:
-  build:
+  host:
     - python
     - pip
   run:
