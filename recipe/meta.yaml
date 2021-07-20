@@ -5,7 +5,7 @@
 package:
   name: {{ name|lower }}
   version: {{ version }}
-  
+
 source:
   git_rev: {{ version }}
   git_url: https://github.com/twosigma/beakerx.git
@@ -14,11 +14,9 @@ source:
   fn: {{ name }}-{{ version }}.tar.gz
   url: https://files.pythonhosted.org/packages/source/b/beakerx/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
-  
+
 build:
-  number: 3
-  skip: true  # [py2k]
-  skip: true  # [win32]
+  number: 5
   script: pip install --no-deps .
   entry_points:
     - beakerx = beakerx:run
