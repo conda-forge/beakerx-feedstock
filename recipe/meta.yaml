@@ -16,7 +16,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 6
+  number: 7
   script: pip install --no-deps .
   entry_points:
     - beakerx = beakerx:run
