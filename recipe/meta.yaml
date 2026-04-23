@@ -28,7 +28,7 @@ requirements:
   run:
     - python
     - notebook >=5.7.4
-    - openjdk ==8.0.121
+    - openjdk ==8
     - maven
     - py4j
     - numpy
